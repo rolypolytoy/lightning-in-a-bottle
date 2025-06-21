@@ -1,6 +1,10 @@
 # Lightning In A Bottle
 
-Lightning in a bottle is an open-source, low-cost charge sensitive amplifier, whose cost is less than half of the cost of the commercial Cremat CR-113 modules, with a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR, which is entirely offset by the reduction in noise caused by the greater degree of amplification it provides. It also uses commercial off-the-shelf components and so can be more easily and cheaply scaled than the Cremat CR-113 and other modules, whose components are proprietary and who may not ship to every country in the world in a timely manner.
+Lightning in a bottle is an open-source, low-cost charge sensitive amplifier with several improvements over all existing commercial designs.
+
+It has a >2x lower cost, a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR, which is entirely offset by the reduction in noise caused by the greater degree of amplification it provides. 
+
+It also uses commercial off-the-shelf components and so can be more easily and cheaply scaled than the Cremat CR-113 and other modules, whose components are proprietary and who may not ship to every country in the world in a timely manner.
 
 Components:
 - LMH6629SD, an ultra-low noise Op-Amp
