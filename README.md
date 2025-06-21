@@ -2,7 +2,22 @@
 
 Lightning in a bottle is an open-source, low-cost charge sensitive amplifier with several improvements over all existing commercial designs.
 
-It has a >2x lower cost, a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR, which is entirely offset by the reduction in noise caused by the greater degree of amplification it provides. It also uses standard +5V as its power source rather than the weird +-6V-13V supplies the Cremat module needs.
+| Metric | Lightning In A Bottle | Cremat CR-113 | Advantage |
+|---------------|----------------------|---------------|-----------|
+| **Cost** | ~$50 | >$100 | **>2x lower cost** ✅ |
+| **Gain** | 1000 mV/pC | 1.3 mV/pC | **750x higher gain** ✅ |
+| **Bandwidth** | ~16 kHz | ~3 kHz | **>5x greater bandwidth** ✅ |
+| **Power Supply** | +5V (standard) | ±6V-13V (proprietary) | **Standard supply** ✅ |
+| **Rise Time** | <10 ns | ~50 ns | **5x faster** ✅ |
+| **Raw Noise** | 300k electrons RMS | 530k electrons RMS | **~5dB weaker** ❌ |
+| **True SNR** | **Higher due to 750x gain** | Limited by low gain (750x greater noise in ADCs) | **Vastly superior in real systems** ✅ |
+| **Component Availability** | Off-the-shelf components | Proprietary parts | **Global availability** ✅ |
+| **Open Source** | Fully open (KiCAD) | Proprietary | **Community accessible** ✅ |
+| **Scalability** | Infinitely scalable with JLCPCB, PCBWay, etc. | Limited by vendor | **Unlimited scaling** ✅ |
+| **Lead Time** | Days to weeks (PCB fab lead times) | Vendor dependent | **Faster deployment** ✅ |
+| **Name** | Descriptive, evocative and physically realistic | Cremat?? (megablunder) | **We Didn't Name Ourselves Cremat** ✅|  
+
+It has a >2x lower cost, a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR. Importantly- its real SNR will be higher since the gain is >750x, and since ADCs have noise, our gain will basically reduce that noise by 750x, and **so in real systems our CSA will have a much higher SNR than Cremat's module**, and thus this has no real 'weakness'. It also uses standard +5V as its power source rather than the weird +-6V-13V supplies the Cremat module needs.
 
 It also uses commercial off-the-shelf components and so can be more easily and cheaply scaled than the Cremat CR-113 and other modules, whose components are proprietary and who may not ship to every country in the world in a timely manner.
 
