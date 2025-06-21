@@ -8,7 +8,7 @@ Lightning in a bottle is an open-source, low-cost charge sensitive amplifier wit
 | **Gain** | 1000 mV/pC | 1.3 mV/pC | **750x higher gain** ✅ |
 | **Bandwidth** | ~16 kHz | ~3 kHz | **>5x greater bandwidth** ✅ |
 | **Power Supply** | +5V (standard) | ±6V-13V (proprietary) | **Standard supply** ✅ |
-| **Rise Time** | <10 ns | ~50 ns | **5x faster** ✅ |
+| **Rise Time** | <1 ns | 1 ns | **Definitively faster** ✅ |
 | **Raw Noise** | 300k electrons RMS | 530k electrons RMS | **~5dB weaker** ❌ |
 | **True SNR** | **Higher due to 750x gain** | Limited by low gain (750x greater noise in ADCs) | **Vastly superior in real systems** ✅ |
 | **Component Availability** | Off-the-shelf components | Proprietary parts | **Global availability** ✅ |
@@ -27,8 +27,6 @@ Components:
 - LMH6629SD, an ultra-low noise Op-Amp
 - TPS7A3301RGW for power regulation
 - Several miscellaneous ceramic capacitors, SMD resistors, inductors, and other generic components.
-
-Powered by +5V, it has an estimated rise time of well below 10nS and a decay time of around 10 microseconds, and displays the typical charge spike + comedown typical of op-amp integrator setups.
 
 You can use a typical RC-CR pulse shaper or buy one from Cremat (might replace it soon but the CR-200-500ns arrived, so I don't need to make another one), but the specs of that are less important than the CSA setup. CSAs are better than transimpedance amplifiers for electron detection and nuclear research.
 
