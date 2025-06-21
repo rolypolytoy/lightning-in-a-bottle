@@ -20,21 +20,12 @@ Not telling.
 ...
 
 ### Fine. What's an op-amp?
-Glad you asked! **Magic triangle make voltage go up.**
-
-### That's it? 
-**M̶̡̛̲̯̪̱̺̪͍̻̜̽͂̌́͐͊̈́́̈́͗́a̷̞̳̺̹͎͉̎̀͜g̸̨̨͎̤̺̭̯̮̪̙̥̺̔͂͐͐̍̈́͘ͅǐ̵̧̗̈̀̏͜͜͝c̴̨̨̢̦̻͇̟͙̳̬͙̦̕ͅ ̸̱̬̲̝͇̱̘̦̫̹͚̈́̒̓̎́̊̚t̴̥͇̅͛͆̾̌r̵̞̰̣͓̯̍̂̈́̄̽́̇̄̅̈́͒̐͐i̴͔̻̿̽͗̋̅̀͝ǎ̸͉̺̹̱̈͋̆̅̒̅̕͘͜ņ̶̯͓̰̹̲̩̞̠̞̫͔̰̊͛̉̚̕͜ģ̶̡͉̺͇̣͈̩̏l̵̬̭͙̩͎͓̱͙͙̊̇͐͜ȩ̸̨̭̲̤̺̪͎̍̽̋̿͛͝ͅ ̵̢̧̱̬̯̟̙̟̪̺̭̙͇̌̐̈́̾̄̏͆̓̎̌̎̍̎̈́͜m̵̠̭̠̆å̶̬͇̀̐̎͌̈̅͗̍̀̀͝ͅk̷̨̬̼̘̻̘̣̠͎̪̣̖͠e̸̺̰̫͆̀̄́̃̉̿̒͂̌̚͜͜͠ ̶̻̗̻̗̃̅̀͑̇̉̋͐̌́̀̽̚͝v̵͉̭̦̼͎̖̩͈͉̳͙̙̿̇̀̑̆͜͠ͅo̶̻̿̆͐̍ļ̷̱̲͎͊̓̿̈́̾̿̅̈̈́̉̋͋̕t̸̨̡̰͎̟̭̭͚̹̮̫̙̑̽́͘͝ạ̶̺̮̠͋̓́̐́̔͗̈́̓̍͗͆͌̓͘ģ̴̏͑̓ȅ̵̢̛̠̼̖̰͈̩͍͕̮͕̌͗̇̽ ̴̧̡̞̙̬̥̣̠̪͕͖͖̹̈́̔̏̔͗̀̒̈́͠g̶̡̧̡̩̲̟̼͕̭̰͓̘̞̼̈́͛̀̒̀͠o̷̢̝͍̲̖͛̃̆̃̎̂̾͂̏͠ ̵̧̛̹̠̮̪̬̞͙̱̙̆͒́͑̀̏͘̚u̸̡̺̯̩̬̠̠̜̖̪̺͔̼͒́́̽̊̅̄̈́̉̈́̐̅̚̕̕͜p̴̨̧̩̊̌̃̎̀͑̿.̵̡̣̲̳̭̮̬̙̉͊̅̅̀͌̌͛́̅͘**
-
-### ???
-Yeah. Don't worry about what's inside.
+Glad you asked! Magic triangle make voltage go up. Don't worry about what's inside.
 
 ### I wasn't.
 Sure you weren't. But, we can make a circuit that outputs a spike of voltage when a small amount of current comes inside. So, we can turn really small amounts of current- in the pico or nano-ampere range, into voltage spikes that are detectable by modern analog to digital converters.
 
-### I'm not bilingual.
-Heh? What do you mean?
-
-### SPEAK ENGLISH FOUR-EYES!!!
+### Speak English, four-eyes.
 OKAY! Basically- the feedback capacitor captures charge and holds it, and that's where the name comes from.
 
 ### T-That's it?
