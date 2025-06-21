@@ -1,10 +1,30 @@
 # Lightning In A Bottle
 
-Have you ever wanted to catch lightning in a bottle? Well, now you can!
+Lightning in a bottle is an open-source, low-cost charge sensitive amplifier, whose cost is less than half of the cost of the commercial Cremat CR-113 modules, with a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR, which is entirely offset by the reduction in noise caused by the greater degree of amplification it provides. It also uses commercial off-the-shelf components and so can be more easily and cheaply scaled than the Cremat CR-113 and other modules, whose components are proprietary and who may not ship to every country in the world in a timely manner.
 
-Sort of.
+Components:
+- LMH6629SD, an ultra-low noise Op-Amp
+- TPS7A3301RGW for power regulation
+- Several miscellaneous ceramic capacitors, SMD resistors, inductors, and other generic components.
 
-## What a Charge Sensitive Amplifier Is
+Powered by +5V, it has an estimated rise time of well below 10nS and a decay time of around 10 microseconds, and displays the typical charge spike + comedown typical of op-amp integrator setups: 
+![image](https://github.com/user-attachments/assets/fc6362a5-f7ce-40c1-b99d-3aea938f30b6)
+
+You can use a typical RC-CR pulse shaper or buy one from Cremat (might replace it soon but the CR-200-500ns arrived, so I don't need to make another one), but the specs of that are less important than the CSA setup. CSAs are better than transimpedance amplifiers for electron detection and nuclear research.
+
+The [Cremat CR-113's datasheet](https://www.cremat.com/CR-113-R2.1.pdf) shows 18k electrons RMS baseline noise, 1.3 mV/pC gain and 30 electrons of noise RMS per pF, which means for the 0.01 microfarad AC coupled capacitor they show in their datasheet means they'll have around 300,000 electrons RMS of noise- which is a LOT of noise. Our SNR?
+
+Op-amp voltage noise is 0.69 nV/√Hz (LMH6629), our feedback capacitor: Cf = 1pF, our feedback resistor: Rf = 10MΩ, our bandwidth: f = 1/(2π × Rf × Cf) = 1/(2π × 10MOhm × 1pF) = 15.9 kHz. Voltage noise is 0.69 nV/√Hz × √(15,900 Hz) = 0.69nV * 126 = 87 nV RMS voltage noise. Our gain is 1/Cf = 1/(1pF) = 1e12 V/C = 1000 mV/pC which is 750 times their gain. Our charge noise is thus 87nV / (1V/pC) = 87fC RMS, which is ~543,000 electrons, which is about a ~5 dB difference. 
+
+Schematic file looks like:
+![image](https://github.com/user-attachments/assets/9812d0b5-c8cc-4c7e-b07f-7144abcbc98e)
+
+PCB file looks like:
+![image](https://github.com/user-attachments/assets/a6c8ca8e-0048-4fb1-8ef2-8eb41f2a56b4)
+
+All Gerbers are pregenerated, and the project is in KiCAD's native file formats. It's a normal four-layer PCB with an estimated BOM of around $50/unit, which is about half the price of a Cremat CR-113 module. 
+
+## Charge Sensitive Amplifiers
 Here's my attempt at explaining what a charge sensitive amplifier, written as a dialectic for my amusement (because who has the time to write a datasheet?)
 
 Me: Do you know what an op-amp is?
