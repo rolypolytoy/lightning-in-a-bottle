@@ -1,0 +1,26 @@
+### Footprint positions - created on 2025-06-21T21:17:53+0530 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                                                  PosX       PosY       Rot  Side
+C1        100nF           C_0603_1608Metric                                                     32.7250   -18.5000  180.0000  top
+C2        100nF           C_0603_1608Metric                                                     28.0000   -42.2750   90.0000  top
+C3        10μF           C_1206_3216Metric                                                     36.4750   -43.0000    0.0000  top
+C4        100nF           C_0603_1608Metric                                                     19.5000   -32.2750   90.0000  top
+C5        1nF             C_0603_1608Metric                                                     21.2500   -32.2750   90.0000  top
+C6        10μF           C_1206_3216Metric                                                     35.5250   -27.0000  180.0000  top
+C7        1μF            C_0603_1608Metric                                                     35.7250   -39.5000    0.0000  top
+Cf1       1pF             C_0603_1608Metric                                                     27.0000   -32.2750  -90.0000  top
+D1        HSMS-2820       SOT-23                                                                28.0625   -21.0500  180.0000  top
+J1        Conn_01x03      PinHeader_1x03_P2.54mm_Vertical                                       19.5000   -23.5000  180.0000  top
+J2        Conn_01x03      PinHeader_1x03_P2.54mm_Vertical                                       20.4200   -46.5000   90.0000  top
+L1        10mH            L_0805_2012Metric                                                     35.0625   -23.5625  180.0000  top
+R1        1KOhm           R_0603_1608Metric                                                     23.6750   -21.0000  180.0000  top
+R2        1MOhm           R_0603_1608Metric                                                     36.5750   -18.5000  180.0000  top
+R3        50Ohm           R_0603_1608Metric                                                     28.0000   -38.8250  -90.0000  top
+R4        10KOhm          R_0603_1608Metric                                                     23.8250   -26.5000    0.0000  top
+R5        10KOhm          R_0603_1608Metric                                                     23.8250   -38.5000    0.0000  top
+Rf1       10MOhm          R_0805_2012Metric                                                     29.0000   -32.4125  -90.0000  top
+U1        LMH6629SD/NOPB  WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm                                     24.0000   -32.5000  -90.0000  top
+U2        TPS7A3301RGW    Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm_ThermalVias    35.0000   -33.2500    0.0000  top
+## End
