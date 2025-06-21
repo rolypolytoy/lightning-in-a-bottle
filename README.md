@@ -10,7 +10,7 @@ Lightning in a bottle is an open-source, low-cost charge sensitive amplifier wit
 | **Power Supply** | +5V (standard) | ±6V-13V (proprietary) | **Standard power** ✅ |
 | **Rise Time** | <1 ns | 1 ns | **Definitively faster** ✅ |
 | **Raw Noise** | 530k electrons RMS | 300k electrons RMS | **~5dB weaker** ❌ |
-| **True SNR** | ~530k electrons RMS (not bottlenecked by ADC noise) | Bottlenecked by ADC noise (750x greater ADC noise due to 750x lower gain) | **Vastly superior in real systems** ✅ |
+| **True SNR** | No ADC noise bottlenecks | Bottlenecked by ADC noise (**750x greater ADC noise due to 750x lower gain**) | **Vastly superior SNR in real systems** ✅ |
 | **Component Availability** | Off-the-shelf components | Proprietary parts | **Global availability** ✅ |
 | **License** | Open Source (The Unlicense) | Proprietary | **Less morally bankrupt** ✅ |
 | **Scalability** | Infinitely scalable with JLCPCB, PCBWay, etc. | Limited by vendor | **Unlimited scaling** ✅ |
