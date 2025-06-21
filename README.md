@@ -18,12 +18,14 @@ The [Cremat CR-113's datasheet](https://www.cremat.com/CR-113-R2.1.pdf) shows 18
 Op-amp voltage noise is 0.69 nV/√Hz (LMH6629), our feedback capacitor: Cf = 1pF, our feedback resistor: Rf = 10MΩ, our bandwidth: f = 1/(2π × Rf × Cf) = 1/(2π × 10MOhm × 1pF) = 15.9 kHz. Voltage noise is 0.69 nV/√Hz × √(15,900 Hz) = 0.69nV * 126 = 87 nV RMS voltage noise. Our gain is 1/Cf = 1/(1pF) = 1e12 V/C = 1000 mV/pC which is 750 times their gain. Our charge noise is thus 87nV / (1V/pC) = 87fC RMS, which is ~543,000 electrons, which is about a ~5 dB difference. 
 
 Schematic file looks like:
+
 ![image](https://github.com/user-attachments/assets/9812d0b5-c8cc-4c7e-b07f-7144abcbc98e)
 
 PCB file looks like:
+
 ![image](https://github.com/user-attachments/assets/a6c8ca8e-0048-4fb1-8ef2-8eb41f2a56b4)
 
-All Gerbers are pregenerated, and the project is in KiCAD's native file formats. It's a normal four-layer PCB with an estimated BOM of around $50/unit, which is about half the price of a Cremat CR-113 module. 
+Gerbers, BOM and all manufacturing information is already there, and the project is in KiCAD's native file formats. It's a normal four-layer PCB with an estimated BOM of around $50/unit, which is less than half the price of a Cremat CR-113 module. 
 
 ## Charge Sensitive Amplifiers
 Here's my attempt at explaining what a charge sensitive amplifier, written as a dialectic for my amusement (because who has the time to write a datasheet?)
