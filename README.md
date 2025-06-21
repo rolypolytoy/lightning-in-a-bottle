@@ -11,9 +11,7 @@ Components:
 - TPS7A3301RGW for power regulation
 - Several miscellaneous ceramic capacitors, SMD resistors, inductors, and other generic components.
 
-Powered by +5V, it has an estimated rise time of well below 10nS and a decay time of around 10 microseconds, and displays the typical charge spike + comedown typical of op-amp integrator setups: 
-
-![image](https://github.com/user-attachments/assets/fc6362a5-f7ce-40c1-b99d-3aea938f30b6)
+Powered by +5V, it has an estimated rise time of well below 10nS and a decay time of around 10 microseconds, and displays the typical charge spike + comedown typical of op-amp integrator setups.
 
 You can use a typical RC-CR pulse shaper or buy one from Cremat (might replace it soon but the CR-200-500ns arrived, so I don't need to make another one), but the specs of that are less important than the CSA setup. CSAs are better than transimpedance amplifiers for electron detection and nuclear research.
 
