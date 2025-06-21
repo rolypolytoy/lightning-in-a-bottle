@@ -2,7 +2,7 @@
 
 Lightning in a bottle is an open-source, low-cost charge sensitive amplifier with several improvements over all existing commercial designs.
 
-| Metric | Lightning In A Bottle | Cremat CR-113 | Advantage |
+| Metric | Lightning In A Bottle (by Hume) | Cremat CR-113 | Advantage |
 |---------------|----------------------|---------------|-----------|
 | **Cost** | ~$50 | >$100 | **>2x lower cost** ✅ |
 | **Gain** | 1000 mV/pC | 1.3 mV/pC | **750x higher gain** ✅ |
@@ -16,8 +16,6 @@ Lightning in a bottle is an open-source, low-cost charge sensitive amplifier wit
 | **Scalability** | Infinitely scalable with JLCPCB, PCBWay, etc. | Limited by vendor | **Unlimited scaling** ✅ |
 | **Lead Time** | Days to weeks (PCB fab lead times) | Vendor dependent | **Faster deployment** ✅ |
 | **Name** | Descriptive, evocative and physically realistic | Cremat?? (megablunder) | **We Didn't Name Ourselves Cremat** ✅✅✅|
-
-Tally: Lightning In A Bottle (by Hume): 13-1 : Cremat
 
 It has a >2x lower cost, a 750x greater gain, >5x greater bandwidth, >50% lower cost, and sub-5 dB lower SNR. Importantly- its real SNR will be higher since the gain is >750x, and since ADCs have noise, our gain will basically reduce that noise by 750x, and **so in real systems our CSA will have a much higher SNR than Cremat's module**, and thus this has no real 'weakness'. It also uses standard +5V as its power source rather than the weird +-6V-13V supplies the Cremat module needs.
 
