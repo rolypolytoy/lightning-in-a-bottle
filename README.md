@@ -7,12 +7,12 @@ Lightning in a bottle is an open-source, low-cost charge sensitive amplifier wit
 | **Cost** | ~$50 | >$100 | **>2x lower cost** ✅ |
 | **Gain** | 1000 mV/pC | 1.3 mV/pC | **750x higher gain** ✅ |
 | **Bandwidth** | ~16 kHz | ~3 kHz | **>5x greater bandwidth** ✅ |
-| **Power Supply** | +5V (standard) | ±6V-13V (proprietary) | **Standard supply** ✅ |
+| **Power Supply** | +5V (standard) | ±6V-13V (proprietary) | **Standard power** ✅ |
 | **Rise Time** | <1 ns | 1 ns | **Definitively faster** ✅ |
 | **Raw Noise** | 300k electrons RMS | 530k electrons RMS | **~5dB weaker** ❌ |
 | **True SNR** | **Higher due to 750x gain** | Limited by low gain (750x greater noise in ADCs) | **Vastly superior in real systems** ✅ |
 | **Component Availability** | Off-the-shelf components | Proprietary parts | **Global availability** ✅ |
-| **Open Source** | Fully open (KiCAD) | Proprietary | **Community accessible** ✅ |
+| **License** | Open Source (The Unlicense) | Proprietary | **Less morally bankrupt** ✅ |
 | **Scalability** | Infinitely scalable with JLCPCB, PCBWay, etc. | Limited by vendor | **Unlimited scaling** ✅ |
 | **Lead Time** | Days to weeks (PCB fab lead times) | Vendor dependent | **Faster deployment** ✅ |
 | **Name** | Descriptive, evocative and physically realistic | Cremat?? (megablunder) | **We Didn't Name Ourselves Cremat** ✅✅✅|
