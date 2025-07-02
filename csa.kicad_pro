@@ -488,7 +488,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "csa.step",
       "svg": "",
       "vrml": ""
     },

@@ -1,16 +1,16 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"C1,C2,C4";"C_0603_1608Metric";3;"100nF";;;
-2;"C3,C6";"C_1206_3216Metric";2;"10μF";;;
-3;"U2";"Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm_ThermalVias";1;"TPS7A3301RGW";;;
-4;"C7";"C_0603_1608Metric";1;"1μF";;;
-5;"Cf1";"C_0603_1608Metric";1;"1pF";;;
-6;"U1";"WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm";1;"LMH6629SD/NOPB";;;
-7;"R4,R5";"R_0603_1608Metric";2;"10KOhm";;;
-8;"Rf1";"R_0805_2012Metric";1;"10MOhm";;;
-9;"C5";"C_0603_1608Metric";1;"1nF";;;
-10;"J2,J1";"PinHeader_1x03_P2.54mm_Vertical";2;"Conn_01x03";;;
-11;"R3";"R_0603_1608Metric";1;"50Ohm";;;
-12;"D1";"SOT-23";1;"HSMS-2820";;;
-13;"L1";"L_0805_2012Metric";1;"10μH";;;
-14;"R2";"R_0603_1608Metric";1;"1MOhm";;;
-15;"R1";"R_0603_1608Metric";1;"1KOhm";;;
+Id,Designator,Footprint,Quantity,Designation,MPN,Supplier/Notes
+1,"C1,C2,C4",C_0603_1608Metric,3,"100nF, 50V, X7R, ±10%",GCM188R71H104KA57D,"Murata - 100nF 50V X7R 0603"
+2,"C3,C6",C_1206_3216Metric,2,"10μF, 25V, X7R, ±10%",GRM31CR71E106KA12K,"Murata - 10uF 25V X7R 1206"
+3,U2,Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm_ThermalVias,1,TPS7A3301RGW,TPS7A3301RGWR,"Texas Instruments - LDO Regulator (VERIFIED)"
+4,C7,C_0603_1608Metric,1,"1μF, 25V, X7R, ±10%",GCM188R71E105KA64D,"Murata - 1uF 25V X7R 0603"
+5,Cf1,C_0603_1608Metric,1,"1pF, 50V, C0G/NP0, ±5%",GRM1885C1H1R0BA01D,"Murata - 1pF 50V C0G/NP0 0603 precision cap"
+6,U1,WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm,1,LMH6629SD/NOPB,LMH6629SD/NOPB,"Texas Instruments - Op Amp (VERIFIED)"
+7,"R4,R5",R_0603_1608Metric,2,"10KΩ, ±1%, 1/10W",RC0603FR-0710KL,"Yageo - 10K ohm 1% 0603"
+8,Rf1,R_0805_2012Metric,1,"10MΩ, ±1%, 1/8W",CRCW080510M0FKEA,"Vishay - 10M ohm 1% 0805"
+9,C5,C_0603_1608Metric,1,"1nF, 50V, X7R, ±10%",GCM188R71H102KA37D,"Murata - 1nF 50V X7R 0603"
+10,"J2,J1",PinHeader_1x03_P2.54mm_Vertical,2,"Pin Header 1x03, 2.54mm pitch",PEC03SAAN,"Sullins - 3-pin header 2.54mm pitch"
+11,R3,R_0603_1608Metric,1,"50Ω, ±1%, 1/10W",RC0603FR-0750RL,"Yageo - 50 ohm 1% 0603"
+12,D1,SOT-23,1,HSMS-2820,HSMS-2820-TR1G,"Broadcom/Avago - RF Schottky Diode (T&R packaging)"
+13,L1,L_0805_2012Metric,1,"10μH, ±20%, 0.5A",CB2012T100KR,"Taiyo Yuden - 10uH 10% 0805 (VERIFIED - better tolerance)"
+14,R2,R_0603_1608Metric,1,"1MΩ, ±1%, 1/10W",RC0603FR-071ML,"Yageo - 1M ohm 1% 0603"
+15,R1,R_0603_1608Metric,1,"1KΩ, ±1%, 1/10W",RC0603FR-071KL,"Yageo - 1K ohm 1% 0603"
